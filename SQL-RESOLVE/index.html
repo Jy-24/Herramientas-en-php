@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOLA MUNDO</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+
+	<div class="contenedor">
+
+	<div class="elparrafo">
+			<p>Hola espero que estos códigos te ayuden. los cree con el fin de que se pudiera exportar e importar la base de datos. Ya sea que tienes un archivo SQL y quieres Exportarlo a tu base de datos o Quieres Exportar tu base de datos en un Archivo SQL. con el tiempo lo voy a mejorar, pero por los momentos se puede usar para pequeños proyectos como blogs, trabajos de la uní etc.</p>
+		</div> 
+		
+		<div class="contenedorr">
+
+		<div class="card">
+		<!--formulario para exportar la bases de datos en un archivo SQL-->
+	<form action="API/export.php" method="post">
+		  <label for="sqlFile">Exportaremos tu Base de datos</label>
+		  <label></label>
+        <button class="button_slide slide_down" type="submit">Exportar</button>
+    </form>
+    </div>
+
+        <!--formulario para importacion del archivo SQL-->
+        <div class="card">
+        <form action="API/import.php" method="post" enctype="multipart/form-data">
+        <label for="sqlFile">Selecciona un archivo SQL:</label>
+        <input type="file" name="sqlFile" id="sqlFile" required>
+        <input class="button_slide slide_down" type="submit" value="Importar">
+    </form>
+    </div>
+
+    </div>
+    <div class="maunal">
+			<p>Te recomiendo leer las interrupciones...</p>
+		<a class="man" href="manual.pdf">Descargar</a>
+        </div>
+	</div>
+
+</body>
+</html>

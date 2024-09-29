@@ -1,0 +1,80 @@
+body{
+	background-image: linear-gradient(#191d23,#26425a);
+
+	margin:0;
+	padding:0;
+	display: grid;
+	justify-content: center;
+}
+
+
+a{
+color:#e57734;
+}
+
+.contenedor{
+	display: grid;
+	justify-content: center;
+	height: 570px;
+
+}
+.contenedorr{
+	display: flex;
+	justify-content: center;
+
+}
+.card{
+	color: white;
+	background:#052659;
+	display: grid;
+	margin:3%;
+	padding: 2%;
+	width: 500px;
+	height: 200px;
+	border:solid 1px #c1e8ff;
+	
+}
+
+.card form{
+	display: grid;
+
+}
+.maunal{
+	display: flex;
+	padding-left: 4%;
+	color: white;
+}
+
+.elparrafo{
+	padding:1%;
+	margin:3%;
+	color: white;
+	background:#052659;
+	display: flex;
+	justify-content: center;
+	width: 920px;
+	height: 100px;
+	border:solid 1px #c1e8ff;
+
+}
+
+.button_slide {
+  background:#052659;
+  color: #FFF;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 #D80286;
+}
